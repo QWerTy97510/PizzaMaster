@@ -1,0 +1,83 @@
+.ChefSection {
+  padding: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  position: relative;
+}
+
+.ChefSectionText {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.ChefSectionText header {
+  text-align: center;
+}
+
+.ChefSectionText header h2 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  padding: 15px;
+}
+
+.ChefSectionText p {
+  font-size: 1.2rem;
+  padding: 5px 20px 5px 5px;
+  letter-spacing: 0.05rem;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+.ChefSectionImage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ChefSectionImage img {
+  width: 90%;
+}
+
+.ChefSectionImageChefButtons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 6.5%;
+  z-index: 10;
+}
+
+.ChefSectionImageChefButtons div {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  font-size: 2.5rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.ChefSectionImageChefButtons div:nth-child(2) {
+  margin: 20px 0px;
+}
+
+.ChefSectionImageChefButtons div:hover {
+  background-color: #d40e0e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.BigMiguel {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  font-size: 19rem;
+  letter-spacing: 3.2rem;
+  transform: rotate(-10deg);
+  color: #fdfdfd;
+  text-shadow: 1px 1px 10px #00000046;
+  pointer-events: none;
+}

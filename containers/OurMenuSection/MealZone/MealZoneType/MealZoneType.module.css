@@ -1,0 +1,11 @@
+.MealZoneType {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  border: 1px solid #ffffff;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  column-gap: 4%;
+}

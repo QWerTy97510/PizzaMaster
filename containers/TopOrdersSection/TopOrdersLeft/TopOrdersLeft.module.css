@@ -1,0 +1,111 @@
+.TopOrdersLeft {
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-rows: 65% 35%;
+  position: relative;
+}
+
+.Top {
+  width: 100%;
+  padding: 10px 50px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.Top div:first-child ul li {
+  list-style-type: none;
+  margin: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.Top div:last-child {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.OrderNowButton {
+  font-size: 1.6rem;
+  padding: 10px 15px;
+  font-family: 'nos';
+  border: none;
+  position: relative;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 20px;
+}
+
+.OrderNowButton span {
+  color: #000000;
+  transition: 0.3s ease;
+}
+
+.OrderNowButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  height: 100%;
+  width: 56%;
+  background-color: #d40e0e;
+  z-index: -1;
+  transition: 0.3s ease;
+}
+
+.OrderNowButton:hover::before {
+  width: 100%;
+}
+
+.OrderNowButton:hover span {
+  color: #ffffff;
+}
+
+.Bottom {
+  width: 100%;
+  height: 100%;
+  background-color: #d40e0e;
+  position: relative;
+}
+
+.BottomTitle {
+  width: 100%;
+  position: absolute;
+  top: -25%;
+}
+
+.BottomTitle h1 {
+  font-size: 3rem;
+  letter-spacing: 0.35rem;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(180deg, #000000 50%, #ffffff 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.BottomPizzaSizes {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  line-height: 1.6;
+}
+
+.PizzaBanner {
+  font-size: 7rem;
+  position: absolute;
+  color: #f8f8f8;
+  transform: rotate(-10deg);
+  letter-spacing: 0.5rem;
+  left: 0;
+  top: 20%;
+  z-index: -2;
+  pointer-events: none;
+}

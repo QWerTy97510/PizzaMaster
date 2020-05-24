@@ -1,0 +1,34 @@
+.OvensSection {
+  width: 100%;
+  height: 90vh;
+  background-image: url('../../assets/Imagini/Ovens\ Picture-min\ -\ Figma.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 50px 0px;
+  position: relative;
+}
+
+.OvensSectionTextContainer {
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+}
+
+.OvensSectionText {
+  width: 100%;
+  background-color: #090809;
+  color: #f8f8f8;
+  padding: 20px 50px;
+  font-size: 2.5rem;
+}
+
+.OvensSectionText p {
+  line-height: 1.6;
+  letter-spacing: 0.2rem;
+}
+
+.OvensSectionText p::first-letter {
+  color: #d40e0e;
+}

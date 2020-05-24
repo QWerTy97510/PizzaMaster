@@ -1,0 +1,45 @@
+.NavigationBar {
+  width: 100%;
+  background-color: #090809;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.NavigationBarLeft {
+  width: 100%;
+}
+
+.NavigationBarLeft img {
+  height: 50px;
+  margin: 10px 0px 5px 80px;
+  cursor: pointer;
+}
+
+.NavigationBarRight {
+  padding: 0px 40px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavigationBarRight ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+}
+
+.NavigationBarRight ul li {
+  text-align: center;
+}
+
+.NavigationBarRight ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 5px;
+}

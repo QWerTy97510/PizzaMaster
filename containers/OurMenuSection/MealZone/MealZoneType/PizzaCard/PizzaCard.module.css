@@ -1,0 +1,39 @@
+.PizzaCard {
+  color: #c8c8c8;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.PizzaCard h3 {
+  letter-spacing: 0.08rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.PizzaCard p {
+  font-size: 1.1rem;
+}
+
+.PizzaCard::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #d40e0e;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transition: 0.3s ease;
+}
+
+.PizzaCard:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.PizzaCard:hover {
+  color: #ffffff;
+}
